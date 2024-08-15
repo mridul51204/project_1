@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameDen</title>
+   <link rel="stylesheet" href="style.css">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="nav-bar glass">
+       <a href="#">⊂(◉‿◉)つ</a> 
+       <div class="links">
+        <ul>
+            
+            <li>
+                <a href="#" onclick="show()" class="dropbtn">GAMES
+                <div class="dropdown-content" id="dropdownContent">
+                    <a href="./simon game/simonGame.html">Simon Game</a>
+                    <a href="./Tic-Tak-Tok game/idex.html">Tic-Tac-Toe</a>
+                    <a href="./Rock-paper-scissors game/index.html">Rock-paper</a>
+                </div>
+                </a>
+            </li>
+            <li><a href="./Form/form.html">Join Us</a></li>
+            <li><a href="#Leaderboard">Leaderboard</a></li>
+           
+        </ul>
+       </div> 
+    </div>
+    <div class="main">
+        <div class="title">
+            <center><br><br>
+                <h1 class="jersey-10-regular size-xl">GameBoye</h1><br>
+                <h3 class="cursive">Old School Mayhem</h3>
+            </center>
+        </div><br><br><br><br><br><br><br><br>
+        <div class="cards">
+                <!-- SIMON GAME -->
+                <div class="card">
+                    <a href="./simon game/simonGame.html">
+                        <center>
+                            <img src="./simon game/s2.png">
+                            <h2 class="jersey-10-regular card-title">Simon Game</h2>
+                        </center>
+                    </a>
+                </div>
+                <!-- Tic-Tac-Toe -->
+                <div class="card"><br>
+                    <a href="./Tic-Tak-Tok game/idex.html">
+                        <center>
+                            <img src="./Tic-Tak-Tok game/T2.jpg">
+                            <h2 class="jersey-10-regular card-title">Tic-Tac-Toe</h2>
+                        </center>
+                    </a>
+                </div>
+                <!-- ROCK-PAPER-SCISSORS -->
+                <div class="card"><br>
+                    <a href="./Rock-paper-scissors game/index.html">
+                        <center>
+                            <img src="./Rock-paper-scissors game/r4.png">
+                            <h2 class="jersey-10-regular card-title">Rock-paper</h2>
+                        </center>
+                    </a>
+                </div>
+        </div>
+        <br><br><br>
+        <center>
+        <h2 id="Leaderboard" class="jersey-10-regular">#Leaderboard</h2>
+        </center>
+        <div class="table">
+            <center>
+                
+                <table>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Name</th>
+                        <th>Rank</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Shikhar Singh</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Robin Chadda</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Taklla Seth</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Tommy Shelby</td>
+                        <td>14</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Noel Siju</td>
+                        <td>2</td>
+                    </tr>
+                </tbody>
+                </table>
+
+            </center>
+        </div>
+        
+    </div><br><br><br><br><br>
+    <div class="f-info glass">
+        
+        <div class="f-info-lost">&copy;&nbsp;2024 NEXUS PVT LTD. All Rights Reserved</div>
+        <div class="f-info-links">
+            <a href="/privacy">Privacy</a>
+            <a href="/terms">Terms</a>
+        </div>
+    </div>
+
+
+    
+</body>
+
+<script>
+    function show() {
+        var dropdownContent = document.getElementById("dropdownContent");
+        if (dropdownContent.style.display === "none") {
+            dropdownContent.style.display = "block";
+        } else {
+            dropdownContent.style.display = "none";
+        }
+    }
+</script>
+</html>
